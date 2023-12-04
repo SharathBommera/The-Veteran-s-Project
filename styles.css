@@ -1,16 +1,59 @@
-html{
-	background:#172D13;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-.head{
-	color:#D76F30;
-	font-size:50px;
-	text-align:center;
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
 }
-h5{
-	color:white;
-	text-align:center;
+
+header h3 {
+    margin: 0; /* Remove default margin for h3 */
 }
-h2{
-	color:white;
-	text-align:center;
+
+nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.login {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.login-link {
+    color: white;
+    padding: 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+.welcome-text {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
