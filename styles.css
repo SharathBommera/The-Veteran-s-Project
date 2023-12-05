@@ -39,17 +39,24 @@ nav a:hover {
 }
 
 
-.login {
-    position: absolute;
-    top: 15px;
-    right: 15px;
+.navigation .login {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: black;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
 }
-
-.login-link {
-    color: white;
-    padding: 10px;
+.navigation .login:hover{
+    background: black;
+    color: #fff;
 }
-
 section {
     padding: 20px;
 }
