@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#FDF5DF;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #637E76;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header h3 {
+    margin: 0;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+nav a {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+
+.login {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.login-link {
+    color: white;
+    padding: 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+.sa {
+    position: absolute;
+    left: 15px;  
+    width: 500px;
+    height: 10px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.or {
+  text-align:center;
+}
+
+.welcome {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-bar, .select-year, .select-domain {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-bar input, .select-year select, .select-domain select {
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+footer {
+    background-color:#637E76;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
