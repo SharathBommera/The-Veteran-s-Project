@@ -37,7 +37,11 @@ nav a:hover {
     background-color: #ddd;
     color: #333;
 }
-
+.collge {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 .login {
     position:absolute;
